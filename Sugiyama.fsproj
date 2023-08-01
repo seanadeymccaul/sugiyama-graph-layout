@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+	<NoWarn>NU1701;MSB3270</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="GraphType.fs" />
+    <Compile Include="Graph.fs" />
+    <Compile Include="FileInput.fs" />
+    <Compile Include="CreateLayers.fs" />
+    <Compile Include="DummyNodes.fs" />
+    <Compile Include="PerfectOrder.fs" />
+    <Compile Include="BaryCentricOrder.fs" />
+    <Compile Include="Order.fs" />
+    <Compile Include="Coordinates.fs" />
+    <Compile Include="SVG.fs" />
+    <Compile Include="CreateLayout.fs" />
+    <Compile Include="MainTests.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flips" Version="2.4.9" />
+  </ItemGroup>
+
+</Project>
